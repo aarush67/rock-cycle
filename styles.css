@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#statusText {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+canvas {
+    background-color: #87CEEB; /* Sky blue */
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    width: 90%;
+    max-width: 800px;
+}
+
+#labels {
+    position: absolute;
+    width: 100%;
+    top: 70px;
+}
+
+p {
+    font-weight: bold;
+    color: black;
+    display: none;
+    position: absolute;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
